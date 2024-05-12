@@ -6,16 +6,16 @@ const Alexa = require('ask-sdk-core');
 
 const STREAMS = [
   {
-    'token': 'dabble-radio-1',
-    'url': 'https://stream.zeno.fm/efe91skxn18uv.m3u',
+    'token': 'canto-uccelli',
+    'url': 'assets\Canto degli Uccellini-299.mp3',
     'metadata': {
-      'title': 'Dabble Radio',
-      'subtitle': 'Music for coders',
+      'title': 'Canto Uccelli',
+      'subtitle': 'relax music',
       'art': {
         'sources': [
           {
-            'contentDescription': 'Dabble Radio',
-            'url': 'https://s3.amazonaws.com/cdn.dabblelab.com/img/audiostream-starter-512x512.png',
+            'contentDescription': 'Canto Uccelli',
+            'url': 'assets\icon.png',
             'widthPixels': 512,
             'heightPixels': 512,
           },
@@ -24,8 +24,8 @@ const STREAMS = [
       'backgroundImage': {
         'sources': [
           {
-            'contentDescription': 'Dabble Radio',
-            'url': 'https://s3.amazonaws.com/cdn.dabblelab.com/img/wayfarer-on-beach-1200x800.png',
+            'contentDescription': 'Canto Uccelli',
+            'url': 'assets\icon.png',
             'widthPixels': 1200,
             'heightPixels': 800,
           },
